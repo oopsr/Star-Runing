@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title></title>
+</head>
+
+<style type="text/css">
+	#target {
+    position: absolute;
+    top: -3500px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#target>div {
+    padding-top: 3500px;
+    animation:autoscroll 1000s linear;
+}
+
+html:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0) 100%);
+    background: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0) 100%);
+    pointer-events: none;
+}
+
+body {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform-origin: 50% 100%;
+    transform: perspective(300px) rotateX(20deg);
+}
+
+html {
+    color: #e0e02d;
+    background: #000000;
+}
+
+@keyframes autoscroll {
+    to {
+        margin-top: -50000px;
+    }    
+}
+</style>
+
+<body>
+
+	<div id="target">
+		<div>
+      Aplikacja jest przeznaczona dla fanów uniwersum Star Wars. W większości ma zabawny charakter, ale za jego pomocą można śledzić za swoim biegiem, a mianowicie: za przebytą odległością, czasem treningu i tempem. Ponadto, w trakcie biegu i po, można zobaczyć szczegółowe raporty treningu, co zawiera mapę i trasę. Na mapie jest zaznaczona trasa, z kolorowym wydzieleniem tempa (czerwony - najgorszy, zielony - najlepszy) i nagrodami. Każda nagroda jest wydawana za osiągnięcie jakiegoś rezultatu. W sumie aplikacja zawiera 30 nagród. Po zdobywaniu kazdej z nich, będziesz poznawać szczegóły o ciekawych miejscach i planetach uniwersum Star Wars, co powinno Cię motywować. W odpowiednim menu aplikacji, będzie można zobaczyć już otrzymane nagrody i te, które tylko można znaleźć. Menu nagród również zawiera szczegółowe statystyki w jakich okolicznościach została odebrana każda nagroda.<br><br>
+      
+      Monitoruj, mierz i poprawiaj zdrowie wraz z Star Runs.<br><br>
+      
+      Uwaga! Ciągłe korzystanie z GPS w tle może znacznie zmniejszyć żywotność baterii.<br><br>
+      
+      
+		</div>
+	</div>
+
+</body>
+
+</html>
