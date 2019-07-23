@@ -1,5 +1,5 @@
-# Star Runs
-Application was created for fans of the Star Wars universe. For the most part, it's a funny app, but with its help, you can tracking your running (distance, time, pace). In addition, in real-time or after the running you can see detailed running report, including the map and the route. A route is marked on the map with a colored line (red - worst pace, green - best pace) and badges. Each badge is given for achieving some result. In total, the application contains 30 badges. After earning each of them, you will learn about the interesting places and planets of the Star Wars universe, which should motivate you. In the appropriate menu, you will be able to see all badges that you have been already achieved and those that you can only find. The badges menu also includes detailed statistic about circumstances in which each badge was achieved.
+# Star Runing
+StarRuning is a running tracker that uses Star Wars as the theme, so it's a very interesting APP. StarRuning sets the award according to the running distance, time and speed of the users. In addition, during the running and after the running, you can see the detailes of the running reports, including the maps and routes. The APP contains a total of 30 prizes, after getting each one, you will learn about the interesting places and planets in the Star Wars, which will inspire you. In the appropriate APP menu, you will be able to see the rewards you have received, and it includes the detailed statistics on the specifics of each awards also.
 
 ### What I learned
 * Core Data
@@ -23,9 +23,7 @@ Application was created for fans of the Star Wars universe. For the most part, i
 ### Programming language
 Swift 5
 
-| ![](images/1.png) | ![](images/2.png) |
-| ------------- | ------------- |
-| ![](images/3.png) | ![](images/4.png) |
+
+
 | ![](images/5.png) | ![](images/6.png) |
-| ![](images/7.png) | ![](images/8.png) |
-| ![](images/9.png) | ![](images/10.png) |
+
